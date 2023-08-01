@@ -64,7 +64,7 @@ body {
   }
   .container {
     max-width: 1296px;
-    margin: 0 auto; /*重要*/
+    margin: 0 auto;
   }
   .title {
     font-size: 128px;
@@ -102,7 +102,7 @@ body {
   .title-small {
     font-size: 40px;
     color: #ae0000;
-    border-bottom: 3px solid #ae0000; /*border-box要設定寬or高時 才會起作用 那我這裡要不要設？設的話可以符合設計稿高度60 不設的話可以更接近總高度3548 還有為什麼我幾乎每個高度都對準了 還是沒辦法百分百符合設計稿高度？*/
+    border-bottom: 3px solid #ae0000;
   }
   .mb8 {
     margin-bottom: 8px;
@@ -131,10 +131,10 @@ body {
   .footer {
     background-color: #000;
     padding: 64px 0;
-    text-align: center; /*重要*/
+    text-align: center;
   }
   .footer-item {
-    display: inline-block; /*重要*/
+    display: inline-block;
   }
   .footer a {
     display: block;
